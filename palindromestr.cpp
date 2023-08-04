@@ -9,6 +9,8 @@ int main()
     bool ispalindrome=true;
     int i;
     int length=input.length();
+    for(int j=0;j<input.length();j++)
+		input[j]=tolower(input[j]);
     for(i=0;i<length/2;i++)
     {
         if(input[i]!=input[length-i-1])
