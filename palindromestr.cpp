@@ -21,4 +21,5 @@ int main()
     cout<<"Palindrome"<<endl;
     else
     cout<<"Not palindrome"<<endl;
+    return 0;
 }
